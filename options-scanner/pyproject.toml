@@ -3,7 +3,6 @@ name = "options-scanner"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = [
-    "stocks-shared",
     "numpy",
     "lxml",
     "streamlit",
@@ -11,6 +10,9 @@ dependencies = [
     "yfinance",
     "schwab-py",
 ]
+
+[tool.poetry.dependencies]
+stocks-shared = {path = "../shared", develop = true}
 
 [dependency-groups]
 dev = ["pytest>=8"]
