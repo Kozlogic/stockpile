@@ -16,3 +16,6 @@ stocks-shared = {path = "../shared", develop = true}
 
 [dependency-groups]
 dev = ["pytest>=8"]
+
+[tool.poetry]
+package-mode = false
