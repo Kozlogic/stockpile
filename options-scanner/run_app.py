@@ -13,7 +13,7 @@ import pandas as pd
 import streamlit as st
 
 st.set_page_config(
-    page_title="Options Scanner",
+    page_title="KLC Options Scanner",
     page_icon="📈",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -1335,7 +1335,7 @@ st.markdown(
                 display:flex; align-items:center;
                 font-size:1.35rem; font-weight:600; z-index:999990;
                 pointer-events:none;'>
-      📈 Options Scanner
+      📈 KLC Options Scanner
     </div>
     """,
     unsafe_allow_html=True,
